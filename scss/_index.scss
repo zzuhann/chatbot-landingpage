@@ -1,0 +1,79 @@
+*,
+*:before,
+*:after {
+    position: relative;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.top {
+    position: fixed;
+    top: 85%;
+    right: 48px;
+    z-index: 100;
+    width: 71px;
+    height: 71px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+// section intro
+
+.section-intro {
+    height: 100vh;
+    background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.home {
+    position: absolute;
+    max-width: 532px;
+    right: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 218.06px;
+    height: 40px;
+}
+
+.fee {
+    padding-left: 32px;
+    padding-right: 32px;
+    color: white;
+}
+
+.content {
+    margin-top: 188px;
+}
+
+.intro-h1 {
+    color: #56C4C5;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.intro-p {
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+.intro-h2 {
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.hero_ball {
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg');
+    top: calc(100vh - 180px);
+    left: -222px;
+}
