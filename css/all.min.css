@@ -10262,12 +10262,12 @@ fieldset:disabled .btn {
   background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg");
   background-repeat: no-repeat;
   background-position: right;
+  padding-bottom: 101px;
 }
 
-.home {
-  position: absolute;
-  max-width: 532px;
-  right: 0;
+.home img {
+  vertical-align: middle;
+  width: 80%;
 }
 
 .header {
@@ -10286,8 +10286,9 @@ fieldset:disabled .btn {
   color: white;
 }
 
-.content {
-  margin-top: 188px;
+.intro-main {
+  display: flex;
+  align-items: center;
 }
 
 .intro-h1 {
@@ -10315,5 +10316,43 @@ fieldset:disabled .btn {
   background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg");
   top: calc(100vh - 180px);
   left: -222px;
+}
+
+.section-platform {
+  margin-top: 101px;
+}
+
+.all-platform {
+  display: flex;
+  justify-content: space-around;
+}
+
+.platform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.platform-img {
+  width: 90px;
+  height: 90px;
+}
+
+.platform h3, .platform .h3 {
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.platform p {
+  color: #747474;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.section-title {
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=all.min.css.map */
