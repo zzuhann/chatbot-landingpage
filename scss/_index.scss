@@ -26,10 +26,6 @@
     background-position: right;
 }
 
-.home img {
-    vertical-align: middle;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -249,4 +245,77 @@
     margin-top: 100px;
 }
 
-// test
+// RWD 手機版面
+
+@media (max-width: 767px) {
+
+    // section intro
+    .logo {
+        width: 130.84px;
+        height: 24px;
+        vertical-align: middle;
+    }
+
+    .section-intro {
+        height: 100vh;
+        background-image: none;
+    }
+
+    .intro-h1 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .intro-p {
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+    .intro-h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .intro-main {
+        display: block;
+        margin-top: 32px;
+    }
+
+    .home {
+        height: 305.5px;
+        background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home.svg'), url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home_sm.svg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: bottom;
+        margin-top: 32px;
+        margin-bottom: 60px;
+
+        img {
+            width: 304.32px;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+
+    // ball
+    .hero_ball {
+        width: 126px;
+        height: 126px;
+        position: absolute;
+        background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg');
+        background-position: right;
+        background-size: 100% 100%;
+        top: 100vh;
+        left: -77px;
+    }
+
+    // 共用樣式
+    .section-title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    div.mt-60 {
+        margin-top: 60px;
+    }
+}
